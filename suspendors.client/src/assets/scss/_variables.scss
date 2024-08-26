@@ -1,0 +1,61 @@
+$themes: (
+  default: (
+    "body-bg": #e5e5e5,
+    "primary": #3ba5dc,
+    "secondary": #8392ab,
+    "success": #00f867,
+    "info": #5d0149,
+    "warning": #fbcf33,
+    "danger": #ea0606,
+    "light": #e9ecef,
+    "dark": #111927,
+    "grey": #cbcbcb,
+  ),
+  dark: (
+    "body-bg": #090f18,
+    "primary": #89e5b0,
+    "secondary": #fff9a4,
+    "success": #00f867,
+    "info": #330163,
+    "warning": #fbcf33,
+    "danger": #eb5757,
+    "light": #ebeef1,
+    "dark": #090f18,
+    "grey": #cbcbcb,
+  ),
+);
+
+:root{
+  --cs-1: #F9F6FA;
+  --cs-2: #FEF6F0;
+  --cs-3: #DED6E9;
+  --cs-4: #E9D8D6;
+  --cs-5: #877A8F;
+  --cs-6: #2D2D2D;
+  --cs-7: #f9f9f9;
+  
+  --gradient: linear-gradient(0deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.25) 50%, rgba(0,0,0,0) 100%);
+
+  --ease: ease-in-out 100ms;
+
+  --avatar-size: 6rem;
+  --avatar-sm-size: 2.3rem;
+  --main-height: calc(100vh - 32px - 64px);
+  --nav-h: 4rem;
+}
+
+$color-ranges: (
+  0: 0,
+  5: 5,
+  10: 10,
+  15: 15,
+  20: 20,
+  25: 25,
+  30: 30,
+  35: 35,
+  40: 40,
+);
+
+$font-sans-serif: 'Rubik', Open Sans;
+$font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$gradient: linear-gradient(180deg, hsla(0, 0%, 100%, 0.15), hsla(0, 0%, 100%, 0));

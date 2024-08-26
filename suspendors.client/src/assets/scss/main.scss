@@ -1,0 +1,61 @@
+@import "./_variables.scss";
+@import "bootstrap";
+@import "./_overrides.scss";
+@import "./_utilities.scss";
+@import "./loaders.scss";
+@import "./_transitions.scss";
+
+
+body{
+  overscroll-behavior: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--body-bg);
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+select {
+  &:not(:placeholder-shown) {
+    &:valid {
+      border: 1px solid $success;
+    }
+    &:invalid {
+      border: 1px solid $danger;
+    }
+  }
+}
+form:invalid button[type="submit"] {
+  filter: grayscale(1);
+  pointer-events: none;
+}
+
+
+.rubik{
+  font-family: 'Rubik', sans-serif;
+}
+.fill{
+  height: 100%;
+  width: 100%;
+}
+.fill-y{ height: 100%; }
+.fill-x{ width: 100%; }
+
+.txt-cs-6{ color: var(--cs-6); text-decoration: none;}
+
+.limit-width{
+  width: 100%; 
+  max-width: 1200px; 
+}
