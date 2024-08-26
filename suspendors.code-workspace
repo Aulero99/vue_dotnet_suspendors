@@ -10,10 +10,6 @@
       "name": "server"
     },
     {
-      "path": ".github/workflows",
-      "name": "workflows"
-    },
-    {
       "name": "vue_dotnet_suspendors",
       "path": "."
     }
